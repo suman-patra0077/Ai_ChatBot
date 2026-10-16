@@ -1,8 +1,8 @@
 package com.example.day2
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.EditText
-import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,7 +21,7 @@ class AiChatBot : AppCompatActivity() {
     private lateinit var chatAdapter: Adp
     private lateinit var recyclerView: RecyclerView
     private lateinit var inputEditText: EditText
-    private lateinit var sendButton: ImageButton
+    private lateinit var sendButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
